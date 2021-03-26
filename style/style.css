@@ -229,97 +229,6 @@ nav ul li a:hover {
 
 
 
-/* mobile */
-@media screen and (max-width: 700px) {
-    .hide-mobile {
-        display: none;
-    }
-
-    .nav-mobile {
-        display: flex;
-    }
-    
-    .container {
-        /* font-family:"calibri"; */
-        text-align:center;
-    
-    }
-    
-    .container img {
-        margin-top:20px;
-        width: 80%;
-        height: 80%;
-        position:relative;
-    }
-    
-    .container .header1 {
-        color: var(--black-text);
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size:30px;
-        font-weight: bold;
-
-    }
-
-    .container .header2 {
-        color: var(--red-wram);
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size:25px;
-        font-weight: bold;
-
-
-    }
-    
-    .container .detail {
-        color:var(--black-text);
-        font-size:15px;
-
-    }
-    .container Button {
-        height: 50px;
-        width: 140px;
-        background-color: var(--red-wram);
-        color: white;
-        border-radius: 5px;
-        border: none;
-        box-shadow: 2px 2px 2px #bbbaba;
-        margin-bottom:50px;
-    }
-    .content-satu{
-        flex-direction: column;
-        text-align: center;
-    }
-    .image-content, .text-content{
-        width: 100%;
-    }
-    .text-content {
-        padding-top: 30px;
-    }
-
-    .content-dua{
-        grid-template-columns: 1fr 1fr ;
-    }
-
-}
-
-
-/* Tablet */
-@media screen and (max-width: 1000px){
-    .container {
-        max-width: 800px;
-    }
-    
-    .hide-mobile {
-        display: none;
-    }
-
-    .nav-mobile {
-        display: flex;
-    }
-
-}
-
 /* Notebook */
 @media screen and (min-width: 1000px){
     body {
@@ -414,4 +323,156 @@ nav ul li a:hover {
     }
     
 }
+
+
+
+/* Tablet */
+@media screen and (max-width: 1000px){
+    .container {
+        max-width: 800px;
+    }
+    
+    .hide-mobile {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+    }
+
+    
+    .container {
+        /* font-family:"calibri"; */
+        text-align:center;
+    
+    }
+    
+    .container img {
+        margin-top:20px;
+        width: 80%;
+        height: 80%;
+        position:relative;
+    }
+    
+    .container .header1 {
+        color: var(--black-text);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size:30px;
+        font-weight: bold;
+
+    }
+
+    .container .header2 {
+        color: var(--red-wram);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size:25px;
+        font-weight: bold;
+
+
+    }
+    
+    .container .detail {
+        color:var(--black-text);
+        font-size:15px;
+
+    }
+    .container Button {
+        height: 50px;
+        width: 140px;
+        background-color: var(--red-wram);
+        color: white;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 2px #bbbaba;
+        margin-bottom:50px;
+    }
+
+    .content-satu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-content, .text-content{
+        width: 100%;
+    }
+    .text-content {
+        padding-top: 30px;
+    }
+
+    .content-dua{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .image-content img {
+        max-width: 700px;
+    }
+}
+
+
+/* mobile */
+@media screen and (max-width: 700px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+    }
+    
+    .container {
+        /* font-family:"calibri"; */
+        text-align:center;
+    
+    }
+    
+    .container img {
+        margin-top:20px;
+        width: 80%;
+        height: 80%;
+        position:relative;
+    }
+    
+    .container .header1 {
+        color: var(--black-text);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size:30px;
+        font-weight: bold;
+
+    }
+
+    .container .header2 {
+        color: var(--red-wram);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size:25px;
+        font-weight: bold;
+
+
+    }
+    
+    .container .detail {
+        color:var(--black-text);
+        font-size:15px;
+
+    }
+    .container Button {
+        height: 50px;
+        width: 140px;
+        background-color: var(--red-wram);
+        color: white;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 2px #bbbaba;
+        margin-bottom:50px;
+    }
+    .content-dua{
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+
 
